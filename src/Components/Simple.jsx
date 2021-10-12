@@ -1,4 +1,4 @@
-// const Simple = <h1>Simple Element</h1>;
+
 function Simple({ls, simpleColor, simpleNumber}) {
 
     return (
