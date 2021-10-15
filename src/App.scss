@@ -1,18 +1,50 @@
-.circle {
-   padding: 25px;
-    position: relative;
-    background-color: #ffd000;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    display: inline-block;
 
-  span {
-    color: black;
-    font-size: 50px;
- 
-  }
-
+.balloon-container {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  padding: 5px;
 }
 
+.balloon {
+  width: 70px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
 
+// .box {
+//   width: 200px;
+//   height: 200px;
+//   background: blue;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin:3px;
+//   padding: 5px;
+
+//   .button {
+//     color: pink;
+//   }
+
+// }
+
+
+// .circle {
+//    padding: 25px;
+//     position: relative;
+//     background-color: #ffd000;
+//     height: 100px;
+//     width: 100px;
+//     border-radius: 50%;
+//     display: inline-block;
+
+//   span {
+//     color: black;
+//     font-size: 50px;
+ 
+//   }
+
+// }

@@ -1,18 +1,14 @@
 
-function Simple({ls, simpleColor, simpleNumber}) {
+function Simple({simpleColor,simpleNumber }) {
 
     return (
         <>
-        <div className="circle">
+        <div className="circle"style={{backgroundColor:simpleColor}}>
         
-            <span style={{
-
-                letterSpacing: ls,
-                color: simpleColor
-                
-                }}>{simpleNumber}</span>
+        <span> {simpleNumber}</span>
         </div>
         </>
-    )
-}
+        )
+            }
+
 export default Simple;
