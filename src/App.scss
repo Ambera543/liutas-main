@@ -1,11 +1,11 @@
 
 .balloon-container {
-  display: flex;
+  display: fixed;
   float: left;
   justify-content: center;
   align-items: center;
-  margin: 3px;
-  padding: 5px;
+  margin: 50px;
+  padding: 50px;
 }
 
 .balloon {
@@ -13,6 +13,12 @@
   height: 200px;
   border-radius: 50%;
   border: 1px solid black;
+}
+
+.counter-container{
+display: block;
+position: fixed;
+top: 20px;
 }
 
 // .box {
